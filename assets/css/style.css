@@ -44,6 +44,7 @@ body {
     height: 1080px;
     background-color: #2e2e2e;
     font-family: works;
+
 }
 
 * {
@@ -59,9 +60,10 @@ body {
         - HEADER -
 =======================*/
 
-body header {
+header {
 
     position: fixed;
+    
 
 }
 
@@ -84,10 +86,10 @@ div.navbar {
 
 .logo  {
     
-    margin-left: 3rem;
+    margin: 3rem 0 0 3rem;
+    width: 3rem;
 
 }
-
 
 
 ul.navbar li {
@@ -130,12 +132,15 @@ ul li.de {
 =======================*/
 
 main {
+
     padding-top: 4rem;
+    
 
 }
 
 
 h1 {
+
     color: #ebccc2;
     margin: 7rem 0vw 15vh 28vw;
     font-size: 3rem;
@@ -145,6 +150,7 @@ h1 {
 
 
 .man {
+
     width: 95%;
     margin: 0 5rem 7rem 5rem;
 
@@ -479,22 +485,17 @@ p {
 
 }
 
+
 .buy {
 
     color: rgb(115, 115, 115);
     background-color: #ebccc2;
     text-align: center;
-    width: 65px;
-    border: 10px solid #ebccc2;
+    width: 80px;
+    border: 13px solid #ebccc2;
     border-radius: 2px;
     letter-spacing: 0.2rem;
     font-size: 1.4rem;
+    cursor: pointer;
 
 }
-
-
-    /* border: 2px solid #ffffff;
-    background-color: #ebccc2;
-    font-size: 2rem;
-    width: 70px;
-    height: 150 */
