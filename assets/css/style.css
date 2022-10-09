@@ -1,0 +1,480 @@
+/*=========================================
+            Assets
+
+    Font: Work sans
+    Farben: #2e2e2e / 
+    #867772 / 
+    rgb(234, 204, 194) /
+    #ebccc2 / 
+    #fff / 
+    rgb(115, 115, 115) 
+
+============================================
+
+-Aufgabenstellung-
+
+Unser Kunde ist heute ein Kopfhörerhersteller. Sie wollen expandieren und brauchen deshalb eine Website.
+
+
+
+
+Bonus:
+Erstelle zusätzlich eine Seite, auf der die Kunden einen Newsletter abonnieren und Kontakt aufnehmen können. Nutze die gleiche Schrift und Farben.
+
+
+
+============================================*/
+
+@font-face {
+    font-family: works;
+    src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+
+html {
+    font-size: 10px;
+
+}
+
+
+body {
+
+    width: 1920px;
+    height: 1080px;
+    background-color: #2e2e2e;
+    font-family: works;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*=====================
+        - HEADER -
+=======================*/
+
+body header {
+
+    position: fixed;
+
+}
+
+
+div.navbar {
+    display: inline-block;
+    width: 37rem;
+    margin-left: 139rem;
+    
+
+} 
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* margin-top: 1.5rem; */
+    
+
+}
+
+
+
+ul.navbar li {
+    list-style: none;
+
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: #867772;
+}
+
+ul li.middle {
+    margin: 0 1rem;
+}
+
+
+ul li.subscribe {
+    padding-right: 4rem;
+}
+
+ul li.de {
+    margin-left: 4rem;
+
+}
+
+
+
+
+/*======================
+        - Main - 
+=======================*/
+
+main {
+    padding-top: 4rem;
+
+}
+
+
+h1 {
+    color: #ebccc2;
+    margin: 7rem 0vw 15vh 28vw;
+    font-size: 3rem;
+
+}
+
+
+
+.man {
+    width: 95%;
+    margin: 0 5rem 7rem 5rem;
+}
+
+
+/*=======================
+    - Main NYC/Alchemy -
+=========================*/
+
+.design {
+
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+
+}
+
+
+
+.loudspeaker {
+
+    width: 400px;
+    margin-right: 9rem;
+    margin-bottom: 10rem;
+
+
+}
+
+
+.head {
+
+    color: #ebccc2;
+    font-size: 3rem;
+    font-family: works;
+    margin-bottom: 2rem;
+}
+
+
+.line {
+
+    color: rgb(115, 115, 115);
+    font-size: 1.5rem;
+    font-family: works;
+    width: 440px;
+    line-height: 3rem;
+
+}
+
+
+/*==========================
+    - Main / The Lounger -
+============================*/
+
+
+.lounger {
+
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 22rem;
+    width: 100%;
+
+
+}
+
+.chair {
+
+    width: 70%;
+    margin-right: 5rem;
+
+}
+
+.heads {
+
+    color: #ebccc2;
+    font-size: 3rem;
+    font-family: works;
+    margin-top: 16rem;
+    margin-bottom: 9rem;
+
+}
+
+.lines {
+
+    color: rgb(115, 115, 115);
+    font-size: 1.5rem;
+    font-family: works;
+    width: 450px;
+    line-height: 3rem;
+    word-spacing: 0.4rem;
+}
+
+
+
+/*=======================
+    - Main / Experience -
+=========================*/
+
+
+
+.experience {
+
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 22rem;
+    width: 100%;
+
+
+
+}
+
+.box {
+
+    width: 70%;
+    margin-right: 5rem;
+
+}
+
+.header {
+
+    color: #ebccc2;
+    font-size: 3rem;
+    font-family: works;
+    margin-top: 16rem;
+    margin-bottom: 9rem;
+
+}
+
+.liner {
+
+    color: rgb(115, 115, 115);
+    font-size: 1.5rem;
+    font-family: works;
+    width: 460px;
+    /* gap: 10px; */
+    line-height: 3rem;
+    word-spacing: 0.4rem;
+}
+
+/*========================
+    - Main / Inspiraton -
+==========================*/
+
+.video {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+
+
+}
+
+
+.videoloop {
+
+    width: 36%;
+    margin-right: 44rem;
+}
+
+
+
+.exist {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 200px;
+    line-height: 2;
+    margin-bottom: 10rem;
+
+
+}
+
+.undervideo {
+
+    padding-left: 37rem;
+}
+
+
+.tripple {
+
+    display: inline-block;
+    color: rgb(115, 115, 115);
+    text-align: center;
+    width: 65px;
+    border: 1px solid white;
+    border-radius: 2px;
+
+}
+
+.tripple {
+
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+
+    color: #ebccc2;
+    font-size: 3rem;
+    font-family: works;
+    letter-spacing: 0.2rem;
+
+}
+
+h4 {
+
+    color: #ebccc2;
+    font-size: 1.5rem;
+    font-family: works;
+    letter-spacing: 0.2rem;
+    /* font-weight:  */
+
+}
+
+p {
+
+    color: rgb(115, 115, 115);
+    font-size: 1.5rem;
+    font-family: works;
+}
+
+
+.soundalchemy {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    width: 100%;
+    padding-left: 37rem;
+
+}
+
+
+.feeling {
+
+
+    width: 350px;
+    height: 300px;
+    padding: 5rem 1.2rem;
+   
+
+
+}
+
+
+.etc {
+
+    width: 300px;
+
+}
+
+
+.starts {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding-left: 37rem;
+    width: 100%;
+    line-height: 1.5;
+
+}
+
+.bogen {
+
+    width: 300px;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+    order: 1;
+
+}
+
+
+.architect {
+
+
+    width: 300px;
+    height: 300px;
+    padding: 5rem 1.2rem;
+  
+
+}
+
+/*========================
+    - Main / Shop -
+==========================*/
+
+
+.shop {
+
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+.sinus {
+
+    width: 70%;
+
+}
+
+
+.headphone {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 3rem 3rem;
+
+
+}
+
+
+
+.sell {
+
+    line-height: 2.2;
+
+
+}
+
+.buy {
+
+    color: rgb(115, 115, 115);
+    background-color: #ebccc2;
+    text-align: center;
+    width: 65px;
+    border: 10px solid #ebccc2;
+    border-radius: 2px;
+    letter-spacing: 0.2rem;
+    font-size: 1.4rem;
+
+}
+
+
+    /* border: 2px solid #ffffff;
+    background-color: #ebccc2;
+    font-size: 2rem;
+    width: 70px;
+    height: 150 */
